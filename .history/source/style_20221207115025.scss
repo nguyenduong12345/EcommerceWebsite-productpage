@@ -1,0 +1,70 @@
+$primaryColor: #0379ca;
+$secondaryColor: #363636;
+$accentColor1: #9899a1;
+$accentColor2: #edf1f4;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $secondaryColor;
+}
+h2 {
+  font-size: 24px;
+}
+body {
+  font-family: "Open Sans", serif;
+  background-color: #f9fafb;
+}
+.Product {
+  margin: 0 160px 0 160px;
+  display: flex;
+}
+.leftProduct_item {
+  margin-right: 24px;
+  width: 548px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-img {
+    width: 548px;
+    height: 592px;
+    object-fit: cover;
+    margin-bottom: 24px;
+  }
+  &-imgbottom {
+    width: 110px;
+    height: 104px;
+    object-fit: cover;
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+.rightProduct_info {
+  width: 732px;
+  background-color: #fff;
+  padding-left: 40px;
+  box-shadow: 0 0 35px rgba(0, 21, 181, 0.02);
+  border-radius: 12px;
+  &-description {
+    display: flex;
+    font-display: row;
+    align-items: center;
+  }
+  &-title {
+    color: $secondaryColor;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 24px 0 12px 0;
+  }
+  &-desc {
+    display: inline-block;
+    margin: 0 0 0 16px;
+    color: $accentColor1;
+  }
+}
+.title1 {
+  margin-top: 36px;
+}

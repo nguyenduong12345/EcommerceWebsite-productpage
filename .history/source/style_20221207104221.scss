@@ -1,0 +1,16 @@
+$primaryColor: #0379ca;
+$secondaryColor: #363636;
+$accentColor1: #9899a1;
+$accentColor2: #edf1f4;
+body {
+  font-family: "Open Sans", serif;
+  background-color: #f9fafb;
+}
+.leftProduct_item {
+  margin-left: 160px;
+  &-img {
+    width: 548px;
+    height: 592px;
+    object-fit: cover;
+  }
+}
